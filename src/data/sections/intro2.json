@@ -5,7 +5,7 @@
       "first": "Unique",
       "second": "brand Stories"
     },
-    "image": "/img/slid/01.jpg"
+    "image": "/img/slid/pic1.jpg"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
       "first": "Digital",
       "second": "Design Awards"
     },
-    "image": "/img/slid/03.jpg"
+    "image": "/img/slid/pic3.jpg"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
       "first": "Original",
       "second": "Solutions"
     },
-    "image": "/img/slid/02.jpg"
+    "image": "/img/slid/pic4.jpg"
   }
 ]
