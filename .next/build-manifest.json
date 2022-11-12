@@ -25,15 +25,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/about/about-dark": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/about/about-dark.js"
+    ],
+    "/contact/contact-dark": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact/contact-dark.js"
+    ],
     "/home/home2-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/home/home2-dark.js"
-    ],
-    "/works2/works2-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/works2/works2-dark.js"
     ]
   },
   "ampFirstPages": []

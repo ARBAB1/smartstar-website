@@ -63,11 +63,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">About</a>
               </Link>
             </li>
-            <li className="nav-item">
+          {/*  <li className="nav-item">
             <Link href="/works2/works2-dark">
               <a className="nav-link">Portfolio</a>
             </Link>
-          </li>
+            </li>*/}
             <li className="nav-item">
               <Link href="/contact/contact-dark">
                 <a className="nav-link">Contact</a>
