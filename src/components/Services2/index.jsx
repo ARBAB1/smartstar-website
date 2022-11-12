@@ -27,9 +27,9 @@ const Services2 = () => {
             data-wow-delay=".4s"
           >
             <div className="mas-item">
-              <span className="icon pe-7s-camera"></span>
+              <span className="icon pe-7s-config"></span>
               <h6>
-                Product <br /> Photography
+                Banking <br /> Systems
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -69,7 +69,7 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-diskette"></span>
               <h6>
-                Document <br /> Legal Policy
+                Cloud<br /> Provider
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
