@@ -63,11 +63,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">About</a>
               </Link>
             </li>
-            <li className="nav-item">
-            <Link href="/services">
-              <a className="nav-link">Services</a>
-            </Link>
-          </li>
+          
           <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
