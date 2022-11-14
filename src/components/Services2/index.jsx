@@ -8,9 +8,9 @@ const Services2 = () => {
         <div className="row rone">
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".4s">
             <div className="mas-item">
-              <span className="icon pe-7s-monitor"></span>
+              <span className="icon pe-7s-culture"></span>
               <h6>
-                Website <br /> Developments
+                Banking<br /> System
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -27,9 +27,9 @@ const Services2 = () => {
             data-wow-delay=".4s"
           >
             <div className="mas-item">
-              <span className="icon pe-7s-config"></span>
+              <span className="icon pe-7s-cash"></span>
               <h6>
-                Banking <br /> Systems
+               Insurance<br /> 
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -61,7 +61,7 @@ const Services2 = () => {
             </div>
           </div>
         </div>
-        <div className="row rtwo">
+        {/* <div className="row rtwo">
           <div
             className="col-lg-3 offset-lg-1 wow fadeInUp"
             data-wow-delay=".4s"
@@ -69,7 +69,8 @@ const Services2 = () => {
             <div className="mas-item">
               <span className="icon pe-7s-diskette"></span>
               <h6>
-                Cloud<br /> Provider
+                Cloud
+                <br /> Provider
               </h6>
               <div className="text-right">
                 <Link href="/about/about-dark">
@@ -116,10 +117,10 @@ const Services2 = () => {
                   </a>
                 </Link>
               </div>
-              <div className="bg-color"></div> 
+              <div className="bg-color"></div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
