@@ -11,7 +11,7 @@ import SkillsCircle from "../../components/Skills-circle";
 import Team1 from "../../components/Team1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
-import BankIntro from "../../components/bank-intro";
+import BankIntro from "../../components/Bank-intro";
 
 const Banking = () => {
   const navbarRef = React.useRef(null);
