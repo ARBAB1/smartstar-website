@@ -20,7 +20,7 @@ const BankIntro = () => {
             <div className="text">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                Our worldwide, multi-disciplinary groups have a profound, pragmatic comprehension of monetary administrations and the difficulties you face. For north of thirty years, a considerable lot of the world's top banks have confided in us to configuration, construct and run strategic arrangements. We can assist you with changing from heritage to computerized innovation.
+                Our worldwide, multi disciplinary groups have a profound, pragmatic comprehension of monetary administrations and the difficulties you face. For north of thirty years, a considerable lot of the world's top banks have confided in us to configuration, construct and run strategic arrangements. We can assist you with changing from heritage to computerized innovation.
                           </p>
               </Split>
             </div>
