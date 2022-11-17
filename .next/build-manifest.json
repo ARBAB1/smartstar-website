@@ -29,23 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
-    ],
-<<<<<<< HEAD
-    "/about/about-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/about/about-dark.js"
-=======
-    "/home/home2-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/home/home2-dark.js"
-    ],
-    "/insurance": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/insurance.js"
->>>>>>> 001886af0c9a4bfe43ca3557bbed8225d9c5dff9
     ]
   },
   "ampFirstPages": []

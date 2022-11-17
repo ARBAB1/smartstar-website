@@ -13,7 +13,7 @@ const Services2 = () => {
                 Banking<br /> System
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/banking">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -32,7 +32,7 @@ const Services2 = () => {
                Insurance<br /> 
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/insurance">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
@@ -51,7 +51,7 @@ const Services2 = () => {
                 Mobile App <br /> Devlopment
               </h6>
               <div className="text-right">
-                <Link href="/about/about-dark">
+                <Link href="/MobileApp">
                   <a className="more">
                     <i className="fas fa-chevron-right"></i>
                   </a>
