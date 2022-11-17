@@ -20,7 +20,7 @@ const BlcSec = () => {
                   className="extra-title wow words chars splitting"
                   data-splitting
                 >
-                  We help to create strategies, design & development.
+                  We help to create strategies, design & development for Digital Transformation of Banking Solutions.
                 </h2>
               </Split>
             </div>
@@ -29,14 +29,11 @@ const BlcSec = () => {
             <div className="full-width">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                  We never underestimate any parts of each project as
-                  they&apos;re all essential to meeting the ultimate goal.
-                  you&apos;ll be engaged in with our positive and enthusiastic
-                  attitude.
+                SSSSCO is modernising Digital banking system  host applications by re-platforming it onto a modern, cloud-enabled infrastructure and enabling the benefits of modern technologies, environments and architectures.
                 </p>
               </Split>
               <Split>
-                <Link href="/about/about-dark">
+                <Link href="/about">
                   <a
                     className="simple-btn custom-font mt-20 wow words chars splitting"
                     data-splitting

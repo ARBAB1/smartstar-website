@@ -12,6 +12,7 @@ import Team1 from "../../components/Team1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 import InsuranceHeader from "../../components/InsuranceHeader";
+import InsuranceIntro from "../../components/Insurance-intro";
 
 const Insurance = () => {
   const navbarRef = React.useRef(null);
@@ -35,7 +36,7 @@ const Insurance = () => {
       <Navbar nr={navbarRef} />
      
       <InsuranceHeader/>
-      <AboutIntro />
+      <InsuranceIntro/>
       <Services4 withPadding withOutTitle />
       <CallToAction subBG />
       <Footer />
