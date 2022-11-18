@@ -35,8 +35,7 @@ const Footer = () => {
                     Karachi.
                   </li>
                   <li>
-                    <span>Dubai :</span> Amroha Society, Block-20, FB Area
-                    Karachi.
+                    <span>Dubai :</span>Mai Tower Office 1413,Al Nahda 1,Dubai
                   </li>
                   <li>
                     <span>Phone : </span> (+971) 50 829 0414
@@ -64,7 +63,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 offset-lg-2">
             <div className="subscribe mb-50">
-              <h6 className="custom-font stit simple-btn">Newslatter</h6>
+              <h6 className="custom-font stit simple-btn">Newsletter</h6>
               <p>Sign up for subscribe out newsletter!</p>
               <Formik
                 initialValues={{
@@ -95,20 +94,7 @@ const Footer = () => {
                 )}
               </Formik>
             </div>
-            <div className="insta">
-              <h6 className="custom-font stit simple-btn">Instagram Post</h6>
-              <div className="insta-gallary">
-                <a href="#0">
-                  <img src="/img/insta/1.jpg" alt="" />
-                </a>
-                <a href="#0">
-                  <img src="/img/insta/2.jpg" alt="" />
-                </a>
-                <a href="#0">
-                  <img src="/img/insta/3.jpg" alt="" />
-                </a>
-              </div>
-            </div>
+        \
           </div>
         </div>
         <div className="copyrights text-center"></div>

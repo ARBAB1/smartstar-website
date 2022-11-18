@@ -5,9 +5,17 @@ const Services2 = () => {
   return (
     <section className="services section-padding">
       <div className="container">
+      <h2
+      className="extra-title wow words chars splitting"
+      data-splitting
+    >
+Our Services
+    </h2>
         <div className="row rone">
+     
           <div className="col-lg-3 wow fadeInUp" data-wow-delay=".4s">
             <div className="mas-item">
+         
               <span className="icon pe-7s-culture"></span>
               <h6>
                 Banking<br /> System

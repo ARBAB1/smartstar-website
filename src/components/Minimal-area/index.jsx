@@ -54,16 +54,7 @@ const MinimalArea = () => {
                     <span>2</span> Our Goals
                   </h6>
                   <p>
-                 * Building and developing a professional banking services team, with the best experience and the ability to implement the latest techniques and systems.<br/>
-                 * Building a strategic relationship with its clients and finance and banking institutions, both locally and internationally.
-                 * Contributing to the promotion of social responsibility. <br/>
-                 * Attracting deposits and developing them, in order to achieve the best financial return for shareholders and depositors.<br/>
-                 * Expanding banking activities to include new sectors and economic activities; such as agriculture, industry, trade and services. <br/>
-                 * Provide financing for investors.<br/>
-                 * Provide security for depositors. <br/>
-                 * Achieving high and rapidly increasing growth rates. <br/>
-                 * Developing new and innovative investment formulas and banking services that fulfill the needs of all clients.<br/>
-                  </p>
+                  Building and developing a professional banking services team, with the best experience and the ability to implement the latest techniques and systems.  </p>
                 </li>
              
               </ul>
