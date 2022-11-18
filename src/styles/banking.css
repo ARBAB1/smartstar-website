@@ -1,0 +1,80 @@
+
+
+/* .bankSection{
+    padding-bottom: 60px;
+} */
+.bankingCon{
+    padding: 50px 20px;
+}
+.bankingDemons h4{
+    font-size: 38px;
+    font-weight: 400;
+}
+.bankingDemons p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    /* padding-right: 163px; */
+}
+.sliderBoxOfTranform .innerDiv{
+    border-left: 2px solid white;
+    padding: 45px 40px;
+}
+.sliderBoxOfTranform .innerDiv h3{
+    font-size: 30px;
+    color: white !important;
+    font-weight: 500;
+}
+/* .sliderBoxOfTranform .slick-arrow{
+    display: block !important;
+} */
+.sliderBoxOfTranform .innerDiv p{
+    line-height: 28px;
+    font-size: 15px;
+    margin-top: 21px;
+}
+.sliderBoxOfTranform  .slick-prev, .slick-next {
+    margin-top: 50px;
+    top: 100%;
+}
+
+.sliderBoxOfTranform .slick-next {
+    right: 30%;
+}
+
+.sliderBoxOfTranform .slick-prev {
+    right: 20%;
+}
+
+.sliderBoxOfTranform .slick-prev:before, .slick-next:before {
+    font-size: 35px !important;
+}
+
+.sliderBoxOfTranform  .slick-list .slick-track .slick-current .innerDiv h3{
+    color: #75dab4 !important;
+}
+
+
+@media screen and (max-width: 769px){
+    .afterMediUm{
+        width: 100% !important;
+    max-width: unset !important;
+    flex: unset !important;
+    margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 481px){
+    .bankingDemons h4{
+        font-size: 25px;
+    }
+    .sliderBoxOfTranform .innerDiv h3{
+        font-size: 20px;
+        color: white !important;
+        font-weight: 500;
+    }
+    .sliderBoxOfTranform .innerDiv{
+        padding: 30px 20px;
+        margin-top: 20px;
+    }
+}

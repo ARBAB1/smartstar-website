@@ -12,6 +12,7 @@ import Team1 from "../../components/Team1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 import BankIntro from "../../components/Bank-intro";
+import Transform from "../../components/banking/Transform";
 
 const Banking = () => {
   const navbarRef = React.useRef(null);
@@ -34,9 +35,10 @@ const Banking = () => {
     <DarkTheme>
       <Navbar nr={navbarRef} />
       <ServicesHeader />
-      <BankIntro/>
-      <Services4 withPadding withOutTitle />
-      <CallToAction subBG />
+      <Transform />
+      {/* <BankIntro/> */}
+      {/* <Services4 withPadding withOutTitle /> */}
+      {/* <CallToAction subSBG /> */}
       <Footer />
     </DarkTheme>
   );
