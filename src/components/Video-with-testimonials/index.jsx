@@ -58,7 +58,7 @@ const VideoWithTestimonials = () => {
 
                 <div className="cont">
                   <h3 className="wow" data-splitting>
-                    So that&apos;s us. There&apos;s no other way to put it.
+                   Shaping the Digital world with Endless Possibilites
                   </h3>
                 </div>
               </div>
@@ -66,11 +66,9 @@ const VideoWithTestimonials = () => {
             <div className="col-lg-5 offset-lg-1">
               <div className="testim-box">
                 <div className="head-box">
-                  <h6 className="wow fadeIn" data-wow-delay=".5s">
-                    Our Clients
-                  </h6>
+                  
                   <h4 className="wow fadeInLeft" data-wow-delay=".5s">
-                    What Client&apos;s Say?
+                   Our Company Moto 
                   </h4>
                 </div>
                 <Slider
@@ -80,9 +78,7 @@ const VideoWithTestimonials = () => {
                 >
                   <div className="item">
                     <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
+                    We believe that our clients should only be served by the best in the industry, and we understand the value of partnering for the long term
                     </p>
                     <div className="info">
                       <div className="img">
@@ -93,63 +89,16 @@ const VideoWithTestimonials = () => {
                       <div className="cont">
                         <div className="author">
                           <h6 className="author-name custom-font">
-                            Alex Regelman
+                            Asif Rizvi
                           </h6>
                           <span className="author-details">
-                            Co-founder, Colabrio
+                            Co-founder
                           </span>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="item">
-                    <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
-                    </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/2.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="cont">
-                        <div className="author">
-                          <h6 className="author-name custom-font">
-                            Alex Regelman
-                          </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="item">
-                    <p>
-                      Nulla metus metus ullamcorper vel tincidunt sed euismod
-                      nibh volutpat velit class aptent taciti sociosqu ad
-                      litora.
-                    </p>
-                    <div className="info">
-                      <div className="img">
-                        <div className="img-box">
-                          <img src="/img/clients/3.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="cont">
-                        <div className="author">
-                          <h6 className="author-name custom-font">
-                            Alex Regelman
-                          </h6>
-                          <span className="author-details">
-                            Co-founder, Colabrio
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+           
                 </Slider>
               </div>
             </div>

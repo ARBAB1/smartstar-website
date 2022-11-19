@@ -33,7 +33,7 @@ const AboutDark = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} />
-      <InsuranceHeader/>
+      <AboutHeader/>
       <AboutIntro />
       <Services4 withPadding withOutTitle />
       <VideoWithTestimonials />
