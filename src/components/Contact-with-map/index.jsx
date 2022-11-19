@@ -137,7 +137,7 @@ const ContactWithMap = () => {
       </section>
       <div className="map" id="ieatmaps">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19868.687203718404!2d-0.14297520856388865!3d51.502466162777694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20UK!5e0!3m2!1sen!2seg!4v1644772966009!5m2!1sen!2seg"
+          src="https://www.google.com/maps/place/Mai+Tower+Al+Nahada+1+Dubai+UAE/@25.2877276,55.3630381,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f5d76ed3a113b:0x8ad7f49c0769c171!8m2!3d25.2877276!4d55.3652268"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
@@ -148,7 +148,7 @@ const ContactWithMap = () => {
         <div className="container">
           <div className="copyrights text-center mt-0">
             <p>
-              © 2022, Avo Template. Made with passion by 
+              © 2022, Avo Template. Made with passion by
               <a href="#0">ThemesCamp</a>.
             </p>
           </div>

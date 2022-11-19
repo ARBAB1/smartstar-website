@@ -94,7 +94,7 @@ const Footer = () => {
                 )}
               </Formik>
             </div>
-        \
+        
           </div>
         </div>
         <div className="copyrights text-center"></div>
