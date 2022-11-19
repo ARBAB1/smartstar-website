@@ -13,6 +13,7 @@ import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 import BankIntro from "../../components/Bank-intro";
 import Transform from "../../components/banking/Transform";
+import SlidesBox from "../../components/banking/SlidesBox";
 
 const Banking = () => {
   const navbarRef = React.useRef(null);
@@ -36,9 +37,7 @@ const Banking = () => {
       <Navbar nr={navbarRef} />
       <ServicesHeader />
       <Transform />
-      {/* <BankIntro/> */}
-      {/* <Services4 withPadding withOutTitle /> */}
-      {/* <CallToAction subSBG /> */}
+      {/* <SlidesBox /> */}
       <Footer />
     </DarkTheme>
   );
