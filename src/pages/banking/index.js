@@ -14,6 +14,7 @@ import DarkTheme from "../../layouts/Dark";
 import BankIntro from "../../components/Bank-intro";
 import Transform from "../../components/banking/Transform";
 import Specialist from "../../components/banking/Specialist";
+import BankingSlide from '../../components/backingSlide/BankingSlide'
 
 
 const Banking = () => {
@@ -39,7 +40,8 @@ const Banking = () => {
       <ServicesHeader />
       <Transform />
       <Specialist />
-      {/* <BankIntro/> */}
+      <BankIntro/>
+      <BankingSlide />
       {/* <Services4 withPadding withOutTitle /> */}
       {/* <CallToAction subSBG /> */}
       <Footer />
