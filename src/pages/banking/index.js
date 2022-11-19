@@ -15,7 +15,8 @@ import BankIntro from "../../components/Bank-intro";
 import Transform from "../../components/banking/Transform";
 import Specialist from "../../components/banking/Specialist";
 import BankingSlide from '../../components/backingSlide/BankingSlide'
-import SlidesBox from '../../components/banking/SlidesBox'
+import SlidesBox from '../../components/banking/SlidesBox';
+import AboutBank from '../../components/banking/AboutBank'
 
 
 const Banking = () => {
@@ -40,10 +41,11 @@ const Banking = () => {
       <Navbar nr={navbarRef} />
       <ServicesHeader />
       <Transform />
+      <AboutBank />
       <SlidesBox />
       <Specialist />
       <BankIntro/>
-      <BankingSlide />
+      {/* <BankingSlide /> */}
       {/* <Services4 withPadding withOutTitle /> */}
       {/* <CallToAction subSBG /> */}
       <Footer />

@@ -13,6 +13,10 @@ import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 import InsuranceHeader from "../../components/InsuranceHeader";
 import InsuranceIntro from "../../components/Insurance-intro";
+import Transform from "../../components/insurance/Transform";
+import SlidesBox from "../../components/insurance/SlidesBox";
+import AboutInsurance from "../../components/insurance/AboutInsurance";
+
 
 const Insurance = () => {
   const navbarRef = React.useRef(null);
@@ -34,11 +38,13 @@ const Insurance = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} />
-     
       <InsuranceHeader/>
+      <Transform />
+      <AboutInsurance />
+      <SlidesBox />
       <InsuranceIntro/>
-      <Services4 withPadding withOutTitle />
-      <CallToAction subBG />
+      {/* <Services4 withPadding withOutTitle />
+      <CallToAction subBG /> */}
       <Footer />
     </DarkTheme>
   );
