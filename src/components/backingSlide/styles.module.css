@@ -5,3 +5,35 @@
     height: 500px ;
     padding: 50px;
 }
+
+.slide1 span{
+    font-size: 20px;
+}
+.slide2{
+    background-image: url(../../assets/images/fourthBG.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px ;
+    padding: 50px;
+}
+.slide3{
+    background-image: url("../../../public/img/slid/1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px ;
+    padding: 50px;
+}
+.slide4{
+    background-image: url("../../../public/img/slid/1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px ;
+    padding: 50px;
+}
+.slide3{
+    background-image: url("../../../public/img/slid/1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px ;
+    padding: 50px;
+}

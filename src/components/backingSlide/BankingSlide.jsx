@@ -18,16 +18,16 @@ export default class SimpleSlider extends Component {
             <span>01 success Story</span>
           </div>
           <div className={styles.slide2}>
-            <h3>02 digital platform for retail</h3>
+            <span>02 digital platform for retail</span>
           </div>
           <div className={styles.slide3}>
-            <h3>03 Green Bond issuance</h3>
+            <span>03 Green Bond issuance</span>
           </div>
           <div className={styles.slide4}>
-            <h3>04 SSSSCO Asset</h3>
+            <span>04 SSSSCO Asset</span>
           </div>
           <div className={styles.slide5}>
-            <h3>05 Bank of International</h3>
+            <span>05 Bank of International</span>
           </div>
         </Slider>
       </div>

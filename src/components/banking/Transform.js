@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css"; 
 
 function Transform() {
     return (
@@ -97,4 +96,7 @@ class AutoPlay extends Component {
         </div>
       );
     }
-  }
+}
+
+
+  
