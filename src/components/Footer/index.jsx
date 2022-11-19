@@ -35,8 +35,8 @@ const Footer = () => {
                     Karachi.
                   </li>
                   <li>
-                    <span>Dubai :</span> Amroha Society, Block-20, FB Area
-                    Karachi.
+                    <span>Dubai :</span> Mai Tower Office 1413 Al Nahda 1 Dubai,
+                    UAE.
                   </li>
                   <li>
                     <span>Phone : </span> (+971) 50 829 0414
