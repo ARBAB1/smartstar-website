@@ -102,18 +102,18 @@ const ContactWithMap = () => {
                 </h3>
                 <div className="item mb-40">
                   <h5>
-                    <a href="#0">Email@example.com</a>
+                    <a href="#0">support@ssssco.com</a>
                   </h5>
-                  <h5>+4.930.705.5448</h5>
+                  <h5> (+971) 50 829 0414</h5>
                 </div>
                 <h3 className="custom-font wow" data-splitting>
                   Visit Us.
                 </h3>
                 <div className="item">
                   <h6>
-                    295 Witting Streets Suite 666,
+                    Mai Tower Office 1413
                     <br />
-                    Melbourne, Australia
+                    Al Nahda 1,Dubai
                   </h6>
                 </div>
                 <div className="social mt-50">
@@ -123,37 +123,26 @@ const ContactWithMap = () => {
                   <a href="#0" className="icon">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a href="#0" className="icon">
+                  {/* <a href="#0" className="icon">
                     <i className="fab fa-pinterest"></i>
                   </a>
                   <a href="#0" className="icon">
                     <i className="fab fa-behance"></i>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div className="map" id="ieatmaps">
+      {/* <div className="map" id="ieatmaps">
         <iframe
           src="https://www.google.com/maps/place/Mai+Tower+Al+Nahada+1+Dubai+UAE/@25.2877276,55.3630381,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f5d76ed3a113b:0x8ad7f49c0769c171!8m2!3d25.2877276!4d55.3652268"
           style={{ border: 0 }}
           allowFullScreen=""
           loading="lazy"
         ></iframe>
-      </div>
-
-      <footer className="footer-half sub-bg">
-        <div className="container">
-          <div className="copyrights text-center mt-0">
-            <p>
-              © 2022, Avo Template. Made with passion by
-              <a href="#0">ThemesCamp</a>.
-            </p>
-          </div>
-        </div>
-      </footer>
+      </div> */}
     </>
   );
 };

@@ -6182,3 +6182,13 @@ body {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+
+
+
+@media screen and (max-width:400px) {
+  .pages-header .cont h1 {
+  font-size: 55px;
+}
+  
+}

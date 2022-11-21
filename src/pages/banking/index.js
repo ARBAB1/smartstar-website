@@ -43,7 +43,7 @@ const Banking = () => {
       <Transform />
       <AboutBank />
       <SlidesBox />
-      <Specialist />
+      {/* <Specialist /> */}
       <BankIntro/>
       {/* <BankingSlide /> */}
       {/* <Services4 withPadding withOutTitle /> */}

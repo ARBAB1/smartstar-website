@@ -32,13 +32,13 @@ const SkillsCircle = ({ subBG, theme }) => {
                       <CircularProgressbar
                         value={90}
                         strokeWidth={2}
-                        text={`${90}%`}
+                        text={`${100}%`}
                         styles={cpStyle}
                       />
                     </div>
                     <div className="cont">
-                      <span>After Sale</span>
-                      <h6>Service</h6>
+                      {/* <span>After Sale</span> */}
+                      <h6>Quality</h6>
                     </div>
                   </div>
                 </div>
@@ -48,13 +48,13 @@ const SkillsCircle = ({ subBG, theme }) => {
                       <CircularProgressbar
                         value={95}
                         strokeWidth={2}
-                        text={`${95}%`}
+                        text={`${100}%`}
                         styles={cpStyle}
                       />
                     </div>
                     <div className="cont">
-                      <span>Support</span>
-                      <h6>Services</h6>
+                      {/* <span>Support</span> */}
+                      <h6>Service</h6>
                     </div>
                   </div>
                 </div>

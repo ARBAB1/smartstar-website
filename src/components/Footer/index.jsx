@@ -52,10 +52,10 @@ const Footer = () => {
                     <i className="fab fa-twitter"></i>
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-pinterest"></i>
+                    {/* <i className="fab fa-pinterest"></i> */}
                   </a>
                   <a href="#0" className="icon">
-                    <i className="fab fa-behance"></i>
+                    {/* <i className="fab fa-behance"></i> */}
                   </a>
                 </div>
               </div>
