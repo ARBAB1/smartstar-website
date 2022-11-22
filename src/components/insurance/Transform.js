@@ -72,7 +72,7 @@ class AutoPlay extends Component {
             <div className="innerDiv">
               <h3>Direct Payment Recievable</h3>
               <p>
-              We can help agencies create trnsfer funds sent directly to bank account. Sender just needs to select 'Bank account' when arranging a money transfer.
+              We can help agencies create trnsfer funds sent directly to bank account. Sender just needs to select Bank account when arranging a money transfer.
               </p>
             </div>
 
@@ -80,7 +80,7 @@ class AutoPlay extends Component {
             <div className="innerDiv">
               <h3> Management of Receivables</h3>
               <p>
-              Good receivables management will directly contribute to your businesses' profit due to its ability to reduce bad debt             </p>
+              Good receivables management will directly contribute to your businesses profit due to its ability to reduce bad debt             </p>
             </div>
           </Slider>
         </div>
