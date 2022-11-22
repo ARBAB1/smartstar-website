@@ -10,6 +10,7 @@ import Navbar from "../../components/Navbar";
 import Services4 from "../../components/Services4";
 import SkillsCircle from "../../components/Skills-circle";
 import Team1 from "../../components/Team1";
+import OurCeo from "../../components/Team1/OurCeo";
 import VideoWithTestimonials from "../../components/Video-with-testimonials";
 import DarkTheme from "../../layouts/Dark";
 
@@ -38,6 +39,7 @@ const AboutDark = () => {
       <Services4 withPadding withOutTitle />
       <VideoWithTestimonials />
       <SkillsCircle subBG theme="dark" />
+      <OurCeo />
       <Team1 />
       <MinimalArea />
       <Clients1 theme="dark" />

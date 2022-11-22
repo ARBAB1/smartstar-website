@@ -68,6 +68,12 @@ class Team1 extends React.Component {
                     {
                       breakpoint: 480,
                       settings: {
+                        slidesToShow: 2,
+                      },
+                    },
+                    {
+                      breakpoint: 300,
+                      settings: {
                         slidesToShow: 1,
                       },
                     },
@@ -80,7 +86,7 @@ class Team1 extends React.Component {
                     data-wow-delay=".3s"
                     key={item.id}
                   >
-                    <div className="img wow imago">
+                    <div className="img wow imago teamCard">
                       <img src={item.image} alt="" />
                     </div>
                     <div className="info">
@@ -103,6 +109,8 @@ class Team1 extends React.Component {
                     </div>
                   </div>
                 ))}
+
+                
               </Slider>
             </div>
           </div>

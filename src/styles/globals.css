@@ -104,3 +104,41 @@ section.next-prog {
 section.team.section-padding {
   overflow: hidden;
 }
+.teamCard{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.ceoCustomHead{
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 8px rgb(255 255 255 / 5%);
+  font-family: "Barlow Condensed", sans-serif;
+  margin-bottom: 20px;
+  border-bottom: 2px solid gray;
+}
+.teamCard > img{
+  height: 300px;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 993px){
+  .customCol{
+    max-width: unset !important;
+    flex: unset !important;
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 768px){
+  .customCol{
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 500px){
+  .customCol{
+    margin: 10px auto;
+    width: 70% !important;
+  }
+}
