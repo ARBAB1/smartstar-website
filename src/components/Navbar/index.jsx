@@ -25,12 +25,12 @@ const Navbar = ({ lr, nr, theme }) => {
           <a className="logo">
             {theme ? (
               theme === "themeL" ? (
-                <img ref={lr} src={`${appData.darkLogo}`} alt="logo"style={{height:80,width:230}}  />
+                <img ref={lr} src={`${appData.darkLogo}`} alt="logo"style={{height:80,width:290}}  />
               ) : (
-                <img ref={lr} src={`${appData.lightLogo}`} alt="logo" style={{height:80,width:230}} />
+                <img ref={lr} src={`${appData.lightLogo}`} alt="logo" style={{height:80,width:290}} />
               )
             ) : (
-              <img ref={lr} src={`${appData.lightLogo}`} alt="logo" style={{height:80,width:230}}  />
+              <img ref={lr} src={`${appData.lightLogo}`} alt="logo" style={{height:80,width:290}}  />
             )}
           </a>
         </Link>
