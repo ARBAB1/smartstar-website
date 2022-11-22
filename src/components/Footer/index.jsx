@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="col-lg-5">
             <div className="cont">
               <div className="logo">
-                <a href="#0">
+                <a href="#0" className="logoFooter">
                   <img src={`${appData.lightLogo}`} alt="" />
                 </a>
               </div>

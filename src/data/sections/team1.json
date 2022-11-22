@@ -2,25 +2,25 @@
   {
     "id": 1,
     "image": "/img/team/03.jpg",
-    "name": "Leio Man",
-    "title": "Founder"
+    "name": "Asghar Ahmed",
+    "title": "Sr Backend Dev"
   },
   {
     "id": 2,
     "image": "/img/team/4.jpg",
-    "name": "Robert Front",
-    "title": "CEO Founder"
+    "name": "Hamza Waseem",
+    "title": "Sr Frontend Dev"
   },
   {
     "id": 3,
     "image": "/img/team/5.jpg",
-    "name": "Legender Mao",
-    "title": "3D Visualization"
+    "name": "DevOps",
+    "title": "DevOps Dev"
   },
   {
     "id": 4,
     "image": "/img/team/6.jpg",
-    "name": "Matt Huk",
-    "title": "3D Visualization"
+    "name": "Abdul Rehman",
+    "title": "Frontend Dev"
   }
 ]

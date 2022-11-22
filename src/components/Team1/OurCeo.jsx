@@ -7,7 +7,7 @@ function OurCeo() {
       <section className="team section-padding">
         <div className="container">
           <div className="row justify-content-center">
-            <h3 className='ceoCustomHead'>Our CEOs</h3>
+            <h3 className='ceoCustomHead'>Our CEO&#39;s </h3>
           </div>
           <div className="row justify-content-center pt-5">
             {CEO.map((item) => (

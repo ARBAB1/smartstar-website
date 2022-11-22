@@ -1719,7 +1719,12 @@ body {
   cursor: pointer;
 }
 .navbar .logo {
-  width: 50px;
+  width: 100px;
+  
+}
+.navbar .logo>img {
+object-fit: cover;
+  
 }
 
 .nav-scroll {
@@ -1737,7 +1742,11 @@ body {
   -ms-transform: translateY(80px);
   transform: translateY(80px);
 }
-
+ .logoFooter> img{
+  object-fit: cover;
+  width: 250px;
+  height: 100px;
+}
 .topnav {
   position: fixed;
   top: 0;
@@ -1760,7 +1769,7 @@ body {
   padding: 0 50px;
 }
 .topnav .logo {
-  width: 50px;
+  width: 100px;
 }
 .topnav .menu-icon {
   margin-left: auto;
