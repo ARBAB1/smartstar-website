@@ -63,12 +63,10 @@
     overflow: hidden;
 }
 
-.slidesSection .sliderCon{
-    /* padding: 20px; */
-}
+
 .firstOneDiv{
     background-image: url(../assets/images/firstBG.jpg) !important;
-    background-blend-mode: overlay !important;
+  
     background-color: #00000094;
     width: 100%;
     height: 500px;
@@ -84,7 +82,7 @@
     padding-bottom: 35px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .slidesBox .innerSlidesDiv h2{
     font-size: 15px;

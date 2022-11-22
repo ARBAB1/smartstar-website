@@ -10,7 +10,7 @@ const BlcSec = () => {
           <div className="col-lg-7">
             <div className="intro md-mb30">
               <div className="sub-title">
-                <h6>Know Us Better</h6>
+               
                 <span></span>
                 <span></span>
                 <span></span>
@@ -20,7 +20,7 @@ const BlcSec = () => {
                   className="extra-title wow words chars splitting"
                   data-splitting
                 >
-                  We help to create strategies, design & development for Digital Banking Solutions.
+                  We help to create strategies, design & development for Digital Insurance Solutions.
                 </h2>
               </Split>
             </div>
@@ -29,7 +29,7 @@ const BlcSec = () => {
             <div className="full-width">
               <Split>
                 <p className="wow txt words chars splitting" data-splitting>
-                SSSSCO is modernising Digital banking system by re-platforming it onto a modern, cloud-enabled infrastructure and enabling the benefits of modern technologies, environments and architectures.
+                SSSSCO is modernising Digital Insurance system by re-platforming it onto secure cost effective cloud-enabled infrastructure and enabling the benefits of modern technologies, environments and architectures.
                 </p>
               </Split>
               <Split>
@@ -38,7 +38,7 @@ const BlcSec = () => {
                     className="simple-btn custom-font mt-20 wow words chars splitting"
                     data-splitting
                   >
-                    <span>Know More</span>
+                
                   </a>
                 </Link>
               </Split>

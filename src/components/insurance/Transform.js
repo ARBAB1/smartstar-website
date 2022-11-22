@@ -9,10 +9,10 @@ function Transform() {
                     <div className="row">
                         <div className="col-4 afterMediUm">
                             <div className="bankingDemons">
-                                <h4>Transform for growth</h4>
+                                <h4>Digitalizing Insurance Workflow</h4>
                                 <br />
                                 <p>
-                                    Technology, regulation and competition are reshaping global banking and will redefine what it means to be a bank. Discover what you need to succeed in a digital future.
+                                We provides customers with convenience, flexibility and payment security that enable insurance policies and premium features with confidence.
                                 </p>
                             </div>
                         </div>
@@ -62,35 +62,25 @@ class AutoPlay extends Component {
         <div>
           <Slider {...settings}>
             <div className="innerDiv">
-              <h3>New customer experience</h3>
+              <h3>Insurane agency Profits</h3>
               <p>
-                Put customers at the centre of everything you do. <br />
+                We put Agencies at the centre of everything you do. <br />
                 Reimagine the customer experience and offer hyper-personalised services when and where they are needed.
               </p>
             </div>
 
             <div className="innerDiv">
-              <h3>Aligning costs with success</h3>
+              <h3>Direct Payment Recievable</h3>
               <p>
-              Optimise your technology stack and bring costs into line with success. <br />
-              Your roadmap to modernisation can begin anywhere, with clear milestones along the way.
+              We can help agencies create trnsfer funds sent directly to bank account. Sender just needs to select 'Bank account' when arranging a money transfer.
               </p>
             </div>
 
-            <div className="innerDiv">
-              <h3>Let data drive decisions</h3>
-              <p>
-              Harness the power of data, artificial intelligence
-              and advanced analytics. As a data-driven bank, you can eliminate guesswork, transform processing and uncover new opportunities.
-              </p>
-              
-            </div>
 
             <div className="innerDiv">
-              <h3>Use opportunities</h3>
+              <h3> Management of Receivables</h3>
               <p>
-              Anticipate and navigate global regulatory compliance. We will help you understand the real impact of regulatory change and turn compliance into a competitive advantage
-              </p>
+              Good receivables management will directly contribute to your businesses' profit due to its ability to reduce bad debt             </p>
             </div>
           </Slider>
         </div>

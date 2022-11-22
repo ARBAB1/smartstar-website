@@ -11,9 +11,9 @@ const BankIntro = () => {
               <h4>Bring Of Your Prception</h4>
               <br />
               <p>
-                Worldwide banking has entered another age. New advanced banks
+                Digital Insurance has entered another age. New advanced Agencies
                 are showing up all over and innovation is key to progress. Each
-                bank should disturb or confront interruption.
+                Insurance Agencies should disturb or confront interruption.
               </p>
             </div>
           </div>
@@ -81,7 +81,7 @@ class AutoPlay extends Component {
       <div>
         <Slider {...settings}>
           <div className="innerDiv">
-            <h3>Banking Specialist</h3>
+            <h3>Insurance Specialist</h3>
             <p>
               Put customers at the centre of everything you do. <br />
               Reimagine the customer experience and offer hyper-personalised
@@ -100,10 +100,10 @@ class AutoPlay extends Component {
           </div>
 
           <div className="innerDiv">
-            <h3>A worldwide Player</h3>
+            <h3>A worldwide Insurance Expert</h3>
             <p>
               Harness the power of data, artificial intelligence and advanced
-              analytics. As a data-driven bank, you can eliminate guesswork,
+              analytics. As a data-driven Insurance Polices, you can eliminate guesswork,
               transform processing and uncover new opportunities.
             </p>
           </div>

@@ -10,32 +10,30 @@ function SlidesBox() {
                     <div className="row">
                         <div className="col-lg-3 slidesBox">
                            <div className="innerSlidesDiv">
-                            <h2>Create business value</h2>
-                            <h4>Retail banking</h4>
+                            <h2>Insurance</h2>
+                            <h4>Real time and automated reconciliation</h4>
                               <p>
-                                  Remember when banking was a stable business?
-                                  That was yesterday.
-                                  Today your bank faces disruption from every angle.
+                              Our reconciliations solutions automate and standardise processing to enhance match rates. Our technology can be flexibly deployed through the cloud, via managed services and more. Managed Services. Dedicated Innovation Lab. Cloud Environment. Stress Testing. BPAAS.
                               </p>
                            </div>
                         </div>
 
                         <div className="col-lg-3 slidesBox">
                            <div className="innerSlidesDiv">
-                            <h2>SOLUTION</h2>
-                            <h4>BankLiteX</h4>
+                            <h2>INSURANCE</h2>
+                            <h4>Advanced Software for Insurance
+                            Automation</h4>
                               <p>
-                              BankLiteX is a modular, end-to-end solution that empowers you to create and deploy a cloud-based, digital banking entity, faster than previously possible.
-                              </p>
+                              Automation solutions in the insurance industry can streamline business operations and improve customer-facing digital capabilities. Insurers looking for competitive advantage should consider the role of automation and industry technology trends to improve the customer experience, business efficiency and profitability.                              </p>
                            </div>
                         </div>
 
                         <div className="col-lg-3 slidesBox">
                            <div className="innerSlidesDiv">
-                            <h2>SOLUTION</h2>
-                            <h4>High performance computing</h4>
+                            <h2>INSURANCE</h2>
+                            <h4>Reduce legacy IT debt</h4>
                               <p>
-                              High performance computing (HPC) on the cloud gives you instant access to aggregated computing power and you only pay for what your use.
+                              Dedicated reverse engineering technology provides heavy lifting of the data model directly from your legacy data stores. Powerful screen generation feature simplifies a standardized UI on top of your data model in a few clicks.
                               </p>
                            </div>
                         </div>
@@ -43,10 +41,10 @@ function SlidesBox() {
 
                         <div className="col-lg-3 slidesBox">
                            <div className="innerSlidesDiv">
-                            <h2>Game changer</h2>
-                            <h4>Cloud – expand your horizons</h4>
+                            <h2>Insurance</h2>
+                            <h4>Ensure regulatory compliance</h4>
                               <p>
-                              Because not everyone has the same starting point, walk your cloud transformation path at your own pace and make sure you have an experienced guide by your side.
+                              Enterprise-ready security and compliance with comprehensive audits that meet the needs of highly regulated industries such as insurance. Sophisticated platform role-based security prevents potential data-leaks
                               </p>
                            </div>
                         </div>
