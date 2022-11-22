@@ -122,6 +122,8 @@ section.team.section-padding {
 .teamCard > img{
   height: 300px;
   object-fit: fill;
+  border: 3px solid rgba(128, 128, 128, 0.767);
+  border-radius: 10px 10px 0 0;
 }
 
 @media screen and (max-width: 993px){
