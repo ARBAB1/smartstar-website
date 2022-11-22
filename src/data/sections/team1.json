@@ -14,7 +14,7 @@
   {
     "id": 3,
     "image": "/img/team/5.jpg",
-    "name": "DevOps",
+    "name": "Waqas Ahmed",
     "title": "DevOps Dev"
   },
   {
@@ -22,5 +22,23 @@
     "image": "/img/team/6.jpg",
     "name": "Abdul Rehman",
     "title": "Frontend Dev"
+  },
+  {
+    "id": 5,
+    "image": "/img/team/07.jpg",
+    "name": "Ghayas Ali",
+    "title": "Sr Frontend Dev"
+  },
+  {
+    "id": 6,
+    "image": "/img/team/08.jpg",
+    "name": "Ali Asghar Zaidi",
+    "title": "Sr Manager Full Stack Dev"
+  },
+  {
+    "id": 6,
+    "image": "/img/team/55.jpg",
+    "name": "Arbab Ali Shah",
+    "title": "Sr Manager Frontend Dev"
   }
 ]

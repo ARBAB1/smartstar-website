@@ -23,7 +23,7 @@ function OurCeo() {
                   <span>{item.title}</span>
                   <div className="social">
                   
-                    <a href="#0">
+                    <a href={item.url}>
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                   </div>

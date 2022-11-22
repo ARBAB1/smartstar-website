@@ -1743,8 +1743,8 @@ object-fit: cover;
   transform: translateY(80px);
 }
  .logoFooter> img{
-  object-fit: cover;
-  width: 250px;
+  object-fit: contain;
+  width: 200px;
   height: 100px;
 }
 .topnav {
@@ -5515,7 +5515,7 @@ object-fit: cover;
   letter-spacing: 4px;
   font-size: 13px;
   font-weight: 300;
-  margin-bottom: 30px;
+ 
 }
 .footer-half .cont .logo {
   width: 55px;
@@ -5529,9 +5529,7 @@ object-fit: cover;
   margin-right: 10px;
   font-weight: 500;
 }
-.footer-half .cont .social-icon {
-  margin-top: 40px;
-}
+
 .footer-half .cont .social-icon .social a {
   width: 45px;
   height: 45px;
