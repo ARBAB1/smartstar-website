@@ -7,11 +7,7 @@ function OurCeo() {
       <section className="team section-padding">
         <div className="container">
           <div className="row justify-content-center">
-<<<<<<< HEAD:src/components/Team1/OurCeo.js
-            <h3 className='ceoCustomHead'>Our CEO</h3>
-=======
             <h3 className='ceoCustomHead'>Our CEOs</h3>
->>>>>>> ea46bbc7f7ea84f0dc95b21c9db12c131629fa6a:src/components/Team1/OurCeo.jsx
           </div>
           <div className="row justify-content-center pt-5">
             {CEO.map((item) => (
