@@ -22,15 +22,7 @@ function OurCeo() {
                   <h5>{item.name}</h5>
                   <span>{item.title}</span>
                   <div className="social">
-                    <a href="#0">
-                      <i className="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#0">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#0">
-                      <i className="fab fa-behance"></i>
-                    </a>
+                  
                     <a href="#0">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
