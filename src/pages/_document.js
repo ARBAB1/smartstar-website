@@ -15,11 +15,11 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="Agha"
+            content="SSSSCO"
           />
           <meta
             name="description"
-            content="Agha"
+            content="SSSSCO"
           />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />
