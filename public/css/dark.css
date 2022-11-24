@@ -6199,3 +6199,11 @@ object-fit: cover;
 }
   
 }
+
+
+.letter-popup{
+  padding: 50px;
+  position: absolute;
+  top: 100;
+  
+}

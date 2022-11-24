@@ -28,7 +28,7 @@ const scrollToTop = () => {
   });
   progressWrap.addEventListener("click", function (event) {
     event.preventDefault();
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "fast" });
     return false;
   });
 };

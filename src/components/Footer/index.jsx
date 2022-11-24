@@ -1,9 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, {useState} from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
-
+import Subscribe from '../Subscribe/index'
 const Footer = () => {
+  const [popup , setPopup] = useState("false")
+
+  const Popup = () =>{
+    setPopup(!false)
+  }
   function validateEmail(value) {
     let error;
     if (!value) {
@@ -87,9 +92,14 @@ const Footer = () => {
                         placeholder="Your Email"
                       />
                       {errors.email && touched.email && (
-                        <div>{errors.email}</div>
+                        <div>
+                          {errors.email}
+                        </div>
                       )}
-                      <button className="cursor-pointer">Subscribe</button>
+                      {/* {popup ? <Subscribe /> : ""} */}
+                      <button className="cursor-pointer" onClick={Popup}>
+                        Subscribe
+                      </button>
                     </div>
                   </Form>
                 )}

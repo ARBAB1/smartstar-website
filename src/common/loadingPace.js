@@ -8,7 +8,7 @@ const loadingPace = () => {
   Pace.on("done", function () {
     //When Pace End
     if (document.querySelector(".hamenu")) {
-      delay(300, animateEl(document.querySelector(".hamenu"), "-100%"));
+      delay(100, animateEl(document.querySelector(".hamenu"), "-100%"));
       document.querySelector(".topnav .menu-icon").classList.remove("open");
     }
     document.querySelector("#preloader").classList.add("isdone");

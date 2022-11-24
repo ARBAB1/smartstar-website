@@ -1,5 +1,5 @@
 import React from "react";
-// import Recap from '../recap/index'hyq
+import Recap from '../recap/index'
 import { Formik, Form, Field } from "formik";
 
 const ContactWithMap = () => {
@@ -85,7 +85,8 @@ const ContactWithMap = () => {
                             required="required"
                           />
                         </div>
-                        {/* <Recap /> */}
+                        <Recap />
+                        
                         <button type="submit" className="btn-curve btn-lit">
                           <span>Send Message</span>
                         </button>
