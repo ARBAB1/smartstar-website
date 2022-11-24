@@ -22,23 +22,24 @@ const Footer = () => {
             <div className="cont">
               <div className="logo">
                 <a href="#0" className="logoFooter">
-                  <img src={`${appData.lightLogo}`} alt="" />
+                  <img src={`${appData.lightLogo2}`} alt="" />
                 </a>
               </div>
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email : </span>support@ssssco.com
+                    <span>Email :</span> &nbsp;&nbsp; support@ssssco.com
                   </li>
                   <li>
-                    <span>Karachi :</span> Amroha Society, Block-20, FB Area
+                    <span>Karachi :</span>Amroha Society, Block-20, FB Area
                     Karachi.
                   </li>
                   <li>
-                    <span>Dubai :</span>Mai Tower Office 1413,Al Nahda 1,Dubai
+                    <span>Dubai :</span>&nbsp;&nbsp;&nbsp;Mai Tower Office
+                    1413,Al Nahda 1,Dubai
                   </li>
                   <li>
-                    <span>Phone : </span> (+971) 50 829 0414
+                    <span>Phone :</span>&nbsp;&nbsp; (+971) 50 829 0414
                   </li>
                 </ul>
               </div>
@@ -51,7 +52,12 @@ const Footer = () => {
                   <a href="#0" className="icon">
                     <i className="fab fa-twitter"></i>
                   </a>
-                 
+                  <a href="#0" className="icon">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                  <a href="#0" className="icon">
+                    <i className="fab fa-instagram"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -89,7 +95,6 @@ const Footer = () => {
                 )}
               </Formik>
             </div>
-        
           </div>
         </div>
         <div className="copyrights text-center"></div>

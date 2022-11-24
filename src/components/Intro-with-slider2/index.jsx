@@ -100,7 +100,7 @@ const IntroWithSlider2 = () => {
                               )}
                             </h1>
                           </Split>
-                          <Link href="/works2/works2-dark">
+                          <Link href="/">
                             <a className="simple-btn mt-50">
                               <span>Discover Works</span>
                             </a>
@@ -141,10 +141,10 @@ const IntroWithSlider2 = () => {
             <i className="fab fa-twitter"></i>
           </a>
           <a href="#0">
-            <i className="fab fa-behance"></i>
+            <i className="fab fa-linkedin"></i>
           </a>
           <a href="#0">
-            <i className="fab fa-pinterest-p"></i>
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
       </div>

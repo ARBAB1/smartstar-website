@@ -11,7 +11,7 @@ import {
 
 const Navbar = ({ lr, nr, theme }) => {
   React.useEffect(() => {
-    handleSearch();
+    // handleSearch();
   }, []);
   return (
     <nav
@@ -25,12 +25,27 @@ const Navbar = ({ lr, nr, theme }) => {
           <a className="logo">
             {theme ? (
               theme === "themeL" ? (
-                <img ref={lr} src={`${appData.darkLogo}`} alt="logo"style={{height:80,width:290}}  />
+                <img
+                  ref={lr}
+                  src={`${appData.darkLogo}`}
+                  alt="logo"
+                  style={{ height: 80, width: 290 }}
+                />
               ) : (
-                <img ref={lr} src={`${appData.lightLogo}`} alt="logo" style={{height:80,width:290}} />
+                <img
+                  ref={lr}
+                  src={`${appData.lightLogo}`}
+                  alt="logo"
+                  style={{ height: 80, width: 290 }}
+                />
               )
             ) : (
-              <img ref={lr} src={`${appData.lightLogo}`} alt="logo" style={{height:80,width:290}}  />
+              <img
+                ref={lr}
+                src={`${appData.lightLogo}`}
+                alt="logo"
+                style={{ height: 80, width: 290 }}
+              />
             )}
           </a>
         </Link>
@@ -52,19 +67,19 @@ const Navbar = ({ lr, nr, theme }) => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-          <Link href="/">
-            <a className="nav-link">Home</a>
-          </Link>
-        </li>
-          
             <li className="nav-item">
-              <Link href="/about">
-                <a className="nav-link">About</a>
+              <Link href="/">
+                <a className="nav-link">HOME</a>
               </Link>
             </li>
-          
-          <li className="nav-item dropdown" onClick={handleDropdown}>
+
+            <li className="nav-item">
+              <Link href="/about">
+                <a className="nav-link">ABOUT</a>
+              </Link>
+            </li>
+
+            <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
                 className="nav-link dropdown-toggle"
                 data-toggle="dropdown"
@@ -72,7 +87,7 @@ const Navbar = ({ lr, nr, theme }) => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Services
+                SERVICES
               </span>
               <div className="dropdown-menu">
                 <Link href="/banking">
@@ -81,24 +96,30 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/insurance">
                   <a className="dropdown-item">Insurance</a>
                 </Link>
-            
               </div>
-            </li>
-          {/*  <li className="nav-item">
+                         
+            </li>
+            {/*  <li className="nav-item">
             <Link href="/works2/works2-dark">
               <a className="nav-link">Portfolio</a>
             </Link>
             </li>*/}
             <li className="nav-item">
               <Link href="/contact">
-                <a className="nav-link">Contact</a>
+                <a className="nav-link">CONTACT</a>
               </Link>
             </li>
           </ul>
           <div className="search">
-            <span className="icon pe-7s-search cursor-pointer"></span>
-            <div className="search-form text-center custom-font">
-              <Formik
+            {/* <span className="icon pe-7s-search cursor-pointer"></span> */}
+
+              <span>
+                {" "}
+                (+971) 50 829 0414 <br /> (+92) 335 0028601{" "}
+              </span>
+            <div className="search-form text-center custom-font headersno">
+
+              {/* <Formik
                 initialValues={{
                   search: "",
                 }}
@@ -113,7 +134,7 @@ const Navbar = ({ lr, nr, theme }) => {
                     <Field type="text" name="search" placeholder="Search" />
                   </Form>
                 )}
-              </Formik>
+              </Formik> */}
               <span className="close pe-7s-close cursor-pointer"></span>
             </div>
           </div>

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/img/team/03.jpg",
+    "image": "/img/team/03 (Small).jpg",
     "name": "Asghar Ahmed",
     "title": "Sr Backend Dev"
   },
@@ -19,8 +19,8 @@
   },
   {
     "id": 4,
-    "image": "/img/team/6.jpg",
-    "name": "Abdul Rehman",
+    "image": "/img/team/Rehman.jpeg",
+    "name": "Abdur Rehman",
     "title": "Frontend Dev"
   },
   {
@@ -31,7 +31,7 @@
   },
   {
     "id": 6,
-    "image": "/img/team/08.jpg",
+    "image": "/img/team/ali asghar 3.jpg",
     "name": "Ali Asghar Zaidi",
     "title": "Sr Manager Full Stack Dev"
   },

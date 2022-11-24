@@ -1,4 +1,5 @@
 import React from "react";
+// import Recap from '../recap/index'hyq
 import { Formik, Form, Field } from "formik";
 
 const ContactWithMap = () => {
@@ -84,7 +85,7 @@ const ContactWithMap = () => {
                             required="required"
                           />
                         </div>
-
+                        {/* <Recap /> */}
                         <button type="submit" className="btn-curve btn-lit">
                           <span>Send Message</span>
                         </button>
@@ -105,6 +106,7 @@ const ContactWithMap = () => {
                     <a href="#0">support@ssssco.com</a>
                   </h5>
                   <h5> (+971) 50 829 0414</h5>
+                  <h5> (+92) 335 0028601</h5>
                 </div>
                 <h3 className="custom-font wow" data-splitting>
                   Visit Us.
@@ -115,6 +117,11 @@ const ContactWithMap = () => {
                     <br />
                     Al Nahda 1,Dubai
                   </h6>
+                  <h6>
+                    Amroha Society,
+                    <br />
+                    Block-20, FB Area Karachi.
+                  </h6>
                 </div>
                 <div className="social mt-50">
                   <a href="#0" className="icon">
@@ -122,6 +129,12 @@ const ContactWithMap = () => {
                   </a>
                   <a href="#0" className="icon">
                     <i className="fab fa-twitter"></i>
+                  </a>
+                  <a href="#0" className="icon">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                  <a href="#0" className="icon">
+                    <i className="fab fa-instagram"></i>
                   </a>
                   {/* <a href="#0" className="icon">
                     <i className="fab fa-pinterest"></i>
