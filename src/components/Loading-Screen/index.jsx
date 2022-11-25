@@ -19,7 +19,9 @@ const LoadingScreen = () => {
   return (
     <>
       <div className={`${appData.showLoading === true ? "showX" : "hideX"}`}>
-        <div id="preloader"></div>
+        <div id="preloader">
+          <img src="/img/logo-light.png" alt="LOADER IMAGE" className="loaderImage"/>
+        </div>
       </div>
       {appData.showLoading ? (
         <Script
