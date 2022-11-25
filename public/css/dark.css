@@ -6100,6 +6100,12 @@ object-fit: cover;
   }
 }
 
+@media screen and (max-width: 500px){
+  #preloader .loaderImage{
+    height: 70px !important;
+    width: 200px !important;
+  }
+}
 @media screen and (max-width: 480px) {
   .hamenu .cont-info {
     display: none;
