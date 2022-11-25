@@ -2,6 +2,7 @@
 import React from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
+import { sendContactForm } from "../../lib/api";
 
 const Footer = () => {
   function validateEmail(value) {
@@ -71,8 +72,8 @@ const Footer = () => {
                   subscribe: "",
                 }}
                 onSubmit={async (values) => {
-                  await sendEmail(500);
-                  alert(JSON.stringify(values, null, 2));
+                  await sendContactForm(values);
+                  alert(values.subscribe); 
                   // Reset the values
                   values.subscribe = "";
                 }}
@@ -85,6 +86,7 @@ const Footer = () => {
                         type="email"
                         name="subscribe"
                         placeholder="Your Email"
+                     
                       />
                       {errors.email && touched.email && (
                         <div>{errors.email}</div>
