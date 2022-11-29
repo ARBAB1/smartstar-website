@@ -73,7 +73,7 @@ const Footer = () => {
                 }}
                 onSubmit={async (values) => {
                   await sendContactForm(values);
-                  alert(values.subscribe); 
+                  alert("Subscribed Successfully"); 
                   // Reset the values
                   values.subscribe = "";
                 }}
