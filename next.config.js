@@ -15,7 +15,7 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/roundcude',
+        source: '/roundcube',
         destination: 'https://vda4000.is.cc/roundcube/',
         permanent: true,
       },
