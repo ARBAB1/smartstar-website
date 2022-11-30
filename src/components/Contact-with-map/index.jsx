@@ -85,7 +85,7 @@ const ContactWithMap = () => {
                             required="required"
                           />
                         </div>
-                        <Recap />
+                        {/* <Recap /> */}
                         
                         <button type="submit" className="btn-curve btn-lit">
                           <span>Send Message</span>
