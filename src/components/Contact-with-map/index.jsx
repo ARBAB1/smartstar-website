@@ -1,6 +1,7 @@
 import React from "react";
 import Recap from '../recap/index'
 import { Formik, Form, Field } from "formik";
+import { sendConForm } from "../../lib/api";
 
 const ContactWithMap = () => {
   const messageRef = React.useRef(null);
@@ -13,7 +14,6 @@ const ContactWithMap = () => {
     }
     return error;
   }
-  const sendMessage = (ms) => new Promise((r) => setTimeout(r, ms));
   return (
     <>
       <section className="contact section-padding">
@@ -30,7 +30,7 @@ const ContactWithMap = () => {
                     message: "",
                   }}
                   onSubmit={async (values) => {
-                    await sendMessage(500);
+                    await sendConForm(values)
                     alert(JSON.stringify(values, null, 2));
                     // show message
 

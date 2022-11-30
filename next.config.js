@@ -12,4 +12,13 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: false,
   },
+  async redirects() {
+    return [
+      {
+        source: '/roundcube',
+        destination: 'https://vda4000.is.cc/roundcube/',
+        permanent: true,
+      },
+    ]
+  },
 };
