@@ -78,6 +78,11 @@ const Navbar = ({ lr, nr, theme }) => {
                 <a className="nav-link">ABOUT</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/contact">
+                <a className="nav-link">CONTACT</a>
+              </Link>
+            </li>
 
             <li className="nav-item dropdown" onClick={handleDropdown}>
               <span
@@ -104,19 +109,13 @@ const Navbar = ({ lr, nr, theme }) => {
               <a className="nav-link">Portfolio</a>
             </Link>
             </li>*/}
-            <li className="nav-item">
-              <Link href="/contact">
-                <a className="nav-link">CONTACT</a>
-              </Link>
-            </li>
           </ul>
           <div className="search">
-              <span>
-                {" "} 
-               (+971) 50 829 0414 <br /> 
-               (+92) 335 0028601
-               {" "}
-              </span>
+            <span>
+              {" "}
+              TELL : (+971) 50 829 0414 <br />
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+92) 335 0028601{" "}
+            </span>
           </div>
         </div>
       </div>

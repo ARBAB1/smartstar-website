@@ -2,7 +2,8 @@
 import React, {useState} from "react";
 import { Formik, Form, Field } from "formik";
 import appData from "../../data/app.json";
-import Subscribe from '../Subscribe/index'
+import { sendContactForm } from "../../lib/api";
+
 const Footer = () => {
   const [popup , setPopup] = useState("false")
 
@@ -33,7 +34,7 @@ const Footer = () => {
               <div className="con-info custom-font">
                 <ul>
                   <li>
-                    <span>Email :</span> &nbsp;&nbsp; support@ssssco.com
+                    <span>Email :</span> &nbsp;&nbsp;support@ssssco.com
                   </li>
                   <li>
                     <span>Karachi :</span>Amroha Society, Block-20, FB Area
@@ -44,7 +45,10 @@ const Footer = () => {
                     1413,Al Nahda 1,Dubai
                   </li>
                   <li>
-                    <span>Phone :</span>&nbsp;&nbsp; (+971) 50 829 0414
+                    <span>Dubai :</span>&nbsp;  &nbsp; (+971) 50 829 0414
+                  </li>
+                  <li>
+                    <span>Karachi :</span> (+92) 335 0028601
                   </li>
                 </ul>
               </div>
@@ -76,8 +80,8 @@ const Footer = () => {
                   subscribe: "",
                 }}
                 onSubmit={async (values) => {
-                  await sendEmail(500);
-                  alert(JSON.stringify(values, null, 2));
+                  await sendContactForm(values);
+                  alert(values.subscribe);
                   // Reset the values
                   values.subscribe = "";
                 }}
@@ -92,9 +96,7 @@ const Footer = () => {
                         placeholder="Your Email"
                       />
                       {errors.email && touched.email && (
-                        <div>
-                          {errors.email}
-                        </div>
+                        <div>{errors.email}</div>
                       )}
                       {/* {popup ? <Subscribe /> : ""} */}
                       <button className="cursor-pointer" onClick={Popup}>
