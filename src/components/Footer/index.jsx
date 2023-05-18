@@ -37,12 +37,12 @@ const Footer = () => {
                     <span>Email :</span> &nbsp;&nbsp;support@ssssco.com
                   </li>
                   <li>
-                    <span>Karachi :</span>Amroha Society, Block-20, FB Area
+                    <span>Address :</span>Amroha Society, Block-20, FB Area
                     Karachi.
                   </li>
                
                   <li>
-                    <span>Karachi :</span> (+92) 335 0028601
+                    <span>Phone No :</span> (+92) 335 0028601
                   </li>
                 </ul>
               </div>
