@@ -40,13 +40,7 @@ const Footer = () => {
                     <span>Karachi :</span>Amroha Society, Block-20, FB Area
                     Karachi.
                   </li>
-                  <li>
-                    <span>Dubai :</span>&nbsp;&nbsp;&nbsp;Mai Tower Office
-                    1413,Al Nahda 1,Dubai
-                  </li>
-                  <li>
-                    <span>Dubai :</span>&nbsp;  &nbsp; (+971) 50 829 0414
-                  </li>
+               
                   <li>
                     <span>Karachi :</span> (+92) 335 0028601
                   </li>
