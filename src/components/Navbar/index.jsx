@@ -112,8 +112,10 @@ const Navbar = ({ lr, nr, theme }) => {
           </ul>
           <div className="search">
             <span>
-           
+              {" "}
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+92) 335 0028601{" "}
+             <br />
+           
             </span>
           </div>
         </div>
