@@ -113,7 +113,6 @@ const Navbar = ({ lr, nr, theme }) => {
           <div className="search">
             <span>
               {" "}
-              TELL : (+971) 50 829 0414 <br />
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (+92) 335 0028601{" "}
             </span>
           </div>
