@@ -106,18 +106,14 @@ const ContactWithMap = () => {
                   <h5>
                     <a href="#0">support@ssssco.com</a>
                   </h5>
-                  <h5> (+971) 50 829 0414</h5>
+               
                   <h5> (+92) 335 0028601</h5>
                 </div>
                 <h3 className="custom-font wow" data-splitting>
                   Visit Us.
                 </h3>
                 <div className="item">
-                  <h6>
-                    Mai Tower Office 1413
-                    <br />
-                    Al Nahda 1,Dubai
-                  </h6>
+            
                   <h6>
                     Amroha Society,
                     <br />
@@ -149,14 +145,7 @@ const ContactWithMap = () => {
           </div>
         </div>
       </section>
-      {/* <div className="map" id="ieatmaps">
-        <iframe
-          src="https://www.google.com/maps/place/Mai+Tower+Al+Nahada+1+Dubai+UAE/@25.2877276,55.3630381,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f5d76ed3a113b:0x8ad7f49c0769c171!8m2!3d25.2877276!4d55.3652268"
-          style={{ border: 0 }}
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
-      </div> */}
+
     </>
   );
 };
