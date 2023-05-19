@@ -82,21 +82,7 @@ const VideoWithTestimonials = () => {
                       partnering for the long term
                     </p>
                     <div className="d-flex">
-                      <div className="info m-1">
-                        <div className="img">
-                          <div className="img-box">
-                            <img src="/img/Team/01 (Small).jpg" alt="" />
-                          </div>
-                        </div>
-                        <div className="cont">
-                          <div className="author">
-                            <h6 className="author-name custom-font">
-                              Omer Farooq
-                            </h6>
-                            <span className="author-details">CEO Dubai</span>
-                          </div>
-                        </div>
-                      </div>
+                    
                       <div className="info m-1">
                         <div className="img">
                           <div className="img-box">
