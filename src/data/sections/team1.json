@@ -1,10 +1,5 @@
 [
-  {
-    "id": 1,
-    "image": "/img/team/03 (Small).jpg",
-    "name": "Asghar Ahmed",
-    "title": "Sr Backend Dev"
-  },
+
   {
     "id": 2,
     "image": "/img/team/4.jpg",
@@ -22,23 +17,6 @@
     "image": "/img/team/Rehman.jpeg",
     "name": "Abdur Rehman",
     "title": "Frontend Dev"
-  },
-  {
-    "id": 5,
-    "image": "/img/team/07.jpg",
-    "name": "Ghayas Ali",
-    "title": "Sr Frontend Dev"
-  },
-  {
-    "id": 6,
-    "image": "/img/team/ali asghar 3.jpg",
-    "name": "Ali Asghar Zaidi",
-    "title": "Sr Manager Full Stack Dev"
-  },
-  {
-    "id": 6,
-    "image": "/img/team/arbab.jpeg",
-    "name": "Arbab Ali Shah",
-    "title": "Sr Manager Frontend Dev"
   }
+
 ]
