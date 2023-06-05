@@ -115,9 +115,8 @@ const ContactWithMap = () => {
                 <div className="item">
             
                   <h6>
-                    Amroha Society,
-                    <br />
-                    Block-20, FB Area Karachi.
+                  <span>Address :</span>Osama Heaven Gulshan-e-Iqbal block 4A Karachi Pakistan
+
                   </h6>
                 </div>
                 <div className="social mt-50">
