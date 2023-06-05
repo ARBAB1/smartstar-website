@@ -37,8 +37,7 @@ const Footer = () => {
                     <span>Email :</span> &nbsp;&nbsp;support@ssssco.com
                   </li>
                   <li>
-                    <span>Address :</span>Amroha Society, Block-20, FB Area
-                    Karachi.
+                    <span>Address :</span>Osama Heaven Gulshan-e-Iqbal block 4A Karachi Pakistan
                   </li>
                
                   <li>
