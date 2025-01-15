@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>SSSSCO</title>
-        <link rel="icon" href="/img/favicon.ico" />
+        <link rel="icon" href="/img/logofav.png" />
       </Head>
       <Cursor />
       <LoadingScreen />
@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
         strategy="beforeInteractive"
         src="/js/isotope.pkgd.min.js"
       ></Script>
-      <Script id="initWow" strategy="lazyOnload">{`new WOW().init();`}</Script>
+      {/* <Script id="initWow" strategy="lazyOnload">{`new WOW().init();`}</Script> */}
     </>
   );
 }

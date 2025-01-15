@@ -1,30 +1,58 @@
 import React from "react";
 
-const ProjectDetailsDescription = () => {
+const ProjectDetailsDescription = ({title1, title2,mainTitle,list1, list2}) => {
   return (
-    <section className="intro-section section-padding">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-3 col-md-4">
-            <div className="htit">
-              <h4>
-                <span>02 </span> Description
-              </h4>
-            </div>
-          </div>
-          <div className="col-lg-8 offset-lg-1 col-md-8 mb-30">
-            <div className="text">
-              <p className="extra-text">
-                We are a Creative Agency &amp; Startup Studio that provides Digital
-                Products and Services turns to focus on client success. We
-                specialize in user interface design, including front-end
-                development which we consider to be an integral part.
-              </p>
-            </div>
-          </div>
+    <div className="container-fluid bg-dark text-light py-5">
+    <div className="text-center mb-4">
+      <h2 className="fw-bold">{mainTitle}</h2>
+    </div>
+    <div className="row justify-content-center">
+      {/* Left Card */}
+      <div className="col-lg-5 col-md-6 mb-4">
+        <div className="p-4 text-white" style={{ backgroundColor: "#007bff", borderRadius: "10px" }}>
+          <h5 className="fw-bold">{title1}</h5>
+{
+list1.map((item, index) => (
+  <ol key={index+1} className="mt-3">
+    <li> {item.title}</li>
+{
+  
+
+item?.list?.map((subItem, subIndex) => (
+  <li key={subIndex}>{subItem}</li>
+))
+
+}
+  </ol>
+))
+}
+        
         </div>
       </div>
-    </section>
+
+      {/* Right Card */}
+      <div className="col-lg-5 col-md-6 mb-4">
+        <div className="p-4 text-dark bg-light" style={{ borderRadius: "10px" }}>
+          <h5 className="fw-bold text-dark">{title2}</h5>
+          {
+list2.map((item, index) => (
+  <ol key={index+1} className="mt-3">
+    <li> {item.title}</li>
+{
+  
+
+item?.list?.map((subItem, subIndex) => (
+  <li key={subIndex}>{subItem}</li>
+))
+
+}
+  </ol>
+))
+}
+        </div>
+      </div>
+    </div>
+  </div>
   );
 };
 

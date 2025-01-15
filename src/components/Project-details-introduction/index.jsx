@@ -1,30 +1,24 @@
 import React from "react";
 import Link from "next/link";
 
-const ProjectDetailsIntroduction = () => {
+const ProjectDetailsIntroduction = ({title, subtitle, description, image}) => {
   return (
     <section className="intro-section section-padding">
       <div className="container">
         <div className="row">
+          <div className="col-lg-8 offset-lg-1 col-md-8 mb-30">
+            <div>
+              <h2>{title}</h2>
+              <h4 className="">{subtitle} </h4>
+              <p className="extra-text">{description} </p>
+            </div>
+          </div>
           <div className="col-lg-3 col-md-4">
             <div className="htit">
-              <h4>
-                <span>01 </span> Introduction
-              </h4>
+              <img src={image} alt="logo" />
             </div>
           </div>
-          <div className="col-lg-8 offset-lg-1 col-md-8 mb-30">
-            <div className="text">
-              <p className="extra-text">
-                We are a Creative Agency &amp; Startup Studio that provides
-                Digital Products and Services turns to focus on client success.
-                We specialize in user interface design, including front-end
-                development which we consider to be an integral part.
-              </p>
-            </div>
-          </div>
-
-          <div className="col-lg-3">
+          {/* <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Client</h6>
               <p>
@@ -56,7 +50,7 @@ const ProjectDetailsIntroduction = () => {
                 <Link href="/works/works-dark">Design</Link>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

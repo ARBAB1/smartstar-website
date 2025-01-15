@@ -104,6 +104,32 @@ const Navbar = ({ lr, nr, theme }) => {
               </div>
                          
             </li>
+            <li className="nav-item dropdown" onClick={handleDropdown}>
+              <span
+                className="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                PRODUCTS
+              </span>
+              <div className="dropdown-menu">
+                <Link href="/rize">
+                  <a className="dropdown-item">Rize</a>
+                </Link>
+                <Link href="/welab">
+                  <a className="dropdown-item">Welab</a>
+                </Link>
+                <Link href="/switch">
+                  <a className="dropdown-item">Switch</a>
+                </Link>
+                <Link href="/rms">
+                  <a className="dropdown-item">Restaurant Management System</a>
+                </Link>
+              </div>
+                         
+            </li>
             {/*  <li className="nav-item">
             <Link href="/works2/works2-dark">
               <a className="nav-link">Portfolio</a>

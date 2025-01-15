@@ -1444,7 +1444,7 @@ body {
 }
 
 .extra-title {
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .sm-title {
@@ -3383,7 +3383,7 @@ object-fit: cover;
 }
 
 .extra-text {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .video-wrapper {
