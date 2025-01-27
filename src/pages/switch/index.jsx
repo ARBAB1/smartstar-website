@@ -75,38 +75,75 @@ const Switch = () => {
   const list2 = [
     {
       id: 1,
-      title: "Investment",
+      title: "Interoperability",
       list: [
-        "Term Deposit is a lump sum savings account with a fixed deposit period",
-        "Seamless digital investment platform",
+        "Connect with global payment networks, core banking systems, and ATM controllers.",
       ],
     },
     {
       id: 2,
-      title: "Encouraging Digital Investment",
+      title: "Connectivity",
       list: [
-        "Introducing Digital Term Deposit placements via App",
+        "Communicate using robust protocols like REST and TCPIP for secure and efficient data exchange.",
         
       ],
     },
     {
       id: 3,
-      title: "Flexibility and Adaptability",
+      title: "Standardized Messaging",
       list: [
-        "Predetermined interest rate which remains constant throughout the deposit period.Predetermined interest rate which remains constant throughout the deposit period.",
-        "Aims to improve digital banking experience",
-        "Prioritize capital preservation and a predictable income stream",
-        "Earn interest at the end of the deposit term"
+        "Support for ISO 8583, ISO 20022, JSON, and XML for seamless payment data messaging"
       ],
     },
     {
       id: 4,
-      title: "Technology Integration",
+      title: "Dynamic Routing",
       list: [
-        "TD origination is facilitated through the Digibank app",
-        "Access to generate TD reports via the portal for portfolio management and compliance",
+        "Optimize transaction pathways with automatic routinge",
      
       ],
+    },
+    {
+      id: 4,
+      title: "Multi-Currency & Channel Support",
+      list: [
+        "Enable global transactions with automated currency conversions via third-party integrations.",
+     
+      ],
+      
+    },
+    {
+      id: 4,
+      title: "End-to-End Efficiency",
+      list: [
+        "Real-time transaction processing with minimal latency.",
+     
+      ],
+      
+    }, {
+      id: 4,
+      title: "MFuture-Ready Design",
+      list: [
+        "Built to support evolving payment technologies and global standards",
+     
+      ],
+      
+    }, {
+      id: 4,
+      title: "Enhanced Security",
+      list: [
+        "Adherence to international standards ensures compliance and data protection",
+     
+      ],
+      
+    }, {
+      id: 4,
+      title: "Flexible Deployment",
+      list: [
+        "Tailored solutions for diverse financial ecosystems",
+     
+      ],
+      
     },
   ];
   const list3 = [
@@ -194,36 +231,26 @@ const Switch = () => {
       <ProjectDetails2Introduction
          title={"Overview"}
          number={"01"}
-//         subtitle={
-// "TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT CORPORATION (MALAYSIA)"
-//         }
-        description={ "Switch is a middleware system that facilitates real-time transaction routing, processing, and settlement between different banking channels, networks, and systems"       }
-//         image={"/img/rize1.png"}
+
+        description={ 
+"A powerful middleware system enabling real-time transaction routing, processing, and settlement across diverse banking channels, networks, and systems."        }
+
       />
        <ProjectDetails2Introduction
          title={"Target Audience"}
          number={"02"}
-//         subtitle={
-// "TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT CORPORATION (MALAYSIA)"
-//         }
+
         description={ "Commercial Banks, Payment Service Providers (PSP), Financial Institutions, ATM/POS Network Operators, Merchants, Regulators, Third Party Integrators & Fintech companies"       }
-//         image={"/img/rize1.png"}
+
 
       />
    <ProjectDetails2Description
-        title={"Admin Panel/Backend"}
-     
-      
+        title={"Core Features of Switch"}
+        position={"left"}
         image={"/img/switch.png"}
         list2={list2}
       />
-       <ProjectDetails2Description
-        title={"Technical Specifications"}
-     
-      
-        image={"/img/switch2.png"}
-        list2={list2}
-      />
+  
       <CallToAction subBG />
       <Footer />
     </DarkTheme>

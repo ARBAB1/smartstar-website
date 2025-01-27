@@ -29,14 +29,14 @@ const Navbar = ({ lr, nr, theme }) => {
                   ref={lr}
                   src={`${appData.darkLogo}`}
                   alt="logo"
-                  style={{ height: 80, width: 290 }}
+                  style={{ height: 20, width: 290 }}
                 />
               ) : (
                 <img
                   ref={lr}
                   src={`${appData.lightLogo}`}
                   alt="logo"
-                  style={{ height: 80, width: 290 }}
+                  style={{ height: 20, width: 290 }}
                 />
               )
             ) : (
@@ -126,6 +126,12 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
                 <Link href="/rms">
                   <a className="dropdown-item">Restaurant Management System</a>
+                </Link>
+                <Link href="/cms">
+                  <a className="dropdown-item">Campaign Management System</a>
+                </Link>
+                <Link href="/digitalwallet">
+                  <a className="dropdown-item">Digital Wallet</a>
                 </Link>
               </div>
                          

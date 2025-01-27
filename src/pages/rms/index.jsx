@@ -39,132 +39,147 @@ const ResturantManagement = () => {
   const list1 = [
     {
       id: 1,
-      title: "Dashboard for Order Statistics",
-      // list: [
-      //   "Access to order statistics and restaurant details."
-      // ],
+      title: "",
+      list: [
+        "Dashboard for Order Statistics"
+      ],
     },
     {
       id: 2,
-      title: "Menu & Order Management:",
-      // list: [
-      //   "View and manage menu items and orders and track their availability.",
+      title: "",
+      list: [
+        "Menu & Order Management:",
         
-      // ],
+      ],
     },
     {
       id: 3,
-      title: "Sales Analytics",
-      // list: [
-      //   "Insights into sales and customer preferences.",
-      // ],
+      title: "",
+      list: [
+        "Sales Analytics",
+      ],
     },
     {
       id: 4,
-      title: "Notifications",
-      // list: [
-      //   "Alerts for new orders, stock levels, and promotions",
+      title: "",
+      list: [
+        "Notifications",
      
-      // ],
+      ],
     }
   ];
   const list2 = [
-    {
-      id: 1,
-      title: "Customer App",
-      // list: [
-      //   "Users can create personal accounts for a personalized experience."
-      // ],
-    },
+ 
     {
       id: 2,
-      title: "Restaurant Browsing & Ordering",
-      // list: [
-      //   "Explore and order from a variety of favorite restaurants.",
+      title: "",
+      list: [
+        "Restaurant Browsing & Ordering.",
         
-      // ],
+      ],
     },
     {
       id: 3,
-      title: "Real-time Order Tracking",
-      // list: [
-      //   "Monitor orders in real-time."
-      // ],
+      title: "",
+      list: [
+        "Real-time Order Tracking"
+      ],
     },
     {
       id: 4,
-      title: "Multiple Payment Options",
-      // list: [
-      //   "Multiple payment options available for convenience.",
+      title: "",
+      list: [
+        "Multiple Payment Options",
      
-      // ],
+      ],
     },
     {
       id: 5,
-      title: "Notifications",
-      // list: [
-      //   "Receive alerts for order confirmations and updates.",
+      title: "",
+      list: [
+        "Notifications",
      
-      // ],
+      ],
     },
   ];
   const list3 = [
     {
       id: 1,
-      title: "Delivery Task Management:",
-      // list: [
-      //   "Amount approves depending on to customer’s financial profile and may have a fixed limit",
-      //   "Get funds to achieve your personal financial needs."
-      // ],
+      title: "",
+      list: [
+        "Delivery Task Management:"
+      ],
     },
     {
       id: 2,
-      title: "Route Optimization:",
-      // list: [
-      //   "Introducing fixed term financing",
+      title: "",
+      list: [
+        "Route Optimization:",
         
-      // ],
+      ],
     },
-    {
-      id: 3,
-      title: "Route Optimization",
-      // list: [
-      //   "Financing that comes with an interest rate that is fixed",
-      //   "Customer repay the loan in installments over a fixed period, with options for short or long-term loans",
-      //   "With minimal documentation, approval for the loan can be obtained.",
-      // ],
-    },
+  
     {
       id: 4,
-      title: "Real-time Status Updates",
-     
+      // title: "Real-time Status Updates",
+      list: [
+        "Real-time Status Updates",
+        
+      ],
     },
+  ];
+  const list5 = [
+    {
+      id: 1,
+      title: "Key Benefits",
+      list: [
+        "Enhanced User Convenience: Streamlined booking and navigation for end-users",
+        "Operational Efficiency: Real-time tracking and automation reduce manual oversight",
+        "Maximized Utilization: Optimize space allocation and revenue."
+      ],
+    },
+   
   ];
   const list4 = [
     {
       id: 1,
-      title: "Comprehensive User Management",
-      
+      title: "",
+      list: [
+        "Comprehensive User Management",
+     
+      ],
     },
     {
       id: 2,
-      title: "Order Monitoring",
+      title: "",
+      list: [
+        "Order Monitoring",
      
+      ],
     },
     {
       id: 3,
-      title: "Payment Gateway Integration",
+      title: "",
+      list: [
+        "Payment Gateway Integration",
      
+      ],
     },
     {
       id: 4,
-      title: "Reports and Analytics",
+      title: "",
+      list: [
+        "Reports and Analytics",
      
+      ],
     },
     {
       id: 5,
-      title: "Promotional tools to manage discounts and offers",
+      title: "",
+      list: [
+        "Promotional tools to manage discounts and offers",
      
+      ],
     },
   ];
   return (
@@ -179,9 +194,7 @@ const ResturantManagement = () => {
       <ProjectDetails2Introduction
          title={"Overview"}
          number={"01"}
-//         subtitle={
-// "TRANSFORMING BANKING WITH AL RAJHI BANKING & INVESTMENT CORPORATION (MALAYSIA)"
-//         }
+
         description={
 "An end-to-end solution designed with three mobile apps—Customer, Restaurant, and Rider—paired with an Admin Panel to streamline operations and optimize user experiences."}
 //         image={"/img/rize1.png"}
@@ -196,7 +209,7 @@ const ResturantManagement = () => {
        <ProjectDetails2Description
         title={"Restaurant Owner App"}
       position={"left"}
-        image={"/img/rms2.png"}
+        image={"/img/rms3.png"}
         list2={list1}
       />
          <ProjectDetails2Description
@@ -213,9 +226,9 @@ const ResturantManagement = () => {
       />
           <ProjectDetails2Description
         title={"Benefits & Technical Highlights"}
-      position={"left"}
+      position={"right"}
         image={"/img/rms3.png"}
-        list2={list4}
+        list2={list5}
       />
       <CallToAction subBG />
       <Footer />
