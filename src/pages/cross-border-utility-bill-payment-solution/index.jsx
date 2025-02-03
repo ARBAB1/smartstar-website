@@ -18,7 +18,7 @@ import ProjectDetailsDescription from "../../components/Project-details-descript
 import ProjectDetails2Introduction from "../../components/Project-details2-introduction";
 import ProjectDetails2Description from "../../components/Project-details2-description";
 
-const ParkingManagement = () => {
+const CrossBorderUtilityBillPayment = () => {
   const navbarRef = React.useRef(null);
   React.useEffect(() => {
     var navbar = navbarRef.current;
@@ -35,83 +35,110 @@ const ParkingManagement = () => {
       }
     });
   }, [navbarRef]);
-
-  const list1 = [
+  const list = [
     {
         "id": 1,
-        "title": "Real-Time Availability",
-        "desc": "View and book available parking spaces."
+        "title": "Real-Time Transaction Processing",
+        "desc": "The backend system enables instant transaction routing, processing, and reconciliation."
     },
     {
         "id": 2,
-        "title": "Navigation Assistance",
-        "desc": "Turn-by-turn directions to the reserved spot."
+        "title": "Global Banking Network Integration",
+        "desc": "API integrations with partner banks via Open Banking protocols."
     },
     {
         "id": 3,
-        "title": "Payment Integration",
-        "desc": "Multiple payment options (cards, wallets, and QR codes)."
+        "title": "Multi-Currency Support and FX Conversion",
+        "desc": "Integration with FX providers to offer competitive exchange rates for seamless cross-border transfers."
     },
     {
         "id": 4,
-        "title": "Parking History",
-        "desc": "Track past bookings and expenses."
+        "title": "Compliance and Security",
+        "desc": "Built-in KYC/AML modules for regulatory adherence. PCI DSS and GDPR compliance for safeguarding sensitive user data."
     },
     {
         "id": 5,
-        "title": "Notifications",
-        "desc": "Alerts for booking confirmation, expiration, and offers."
+        "title": "Transaction Tracking and Notifications",
+        "desc": "Real-time updates with SMS and email notifications to keep users informed about their transfer status."
     },
     {
         "id": 6,
-        "title": "Space Monitoring",
-        "desc": "Real-time tracking of occupancy and availability."
+        "title": "Advanced Reporting and Analytics",
+        "desc": "Tools for tracking transaction history, exchange rates, and system performance, including visual dashboards for administrators."
     },
     {
         "id": 7,
-        "title": "Revenue Tracking",
-        "desc": "View earnings and payment reports."
-    },
-    {
-        "id": 8,
-        "title": "Access Control",
-        "desc": "Manage user roles and permissions."
-    },
-    {
-        "id": 9,
-        "title": "Analytics",
-        "desc": "Generate reports on usage patterns, peak hours, and customer feedback."
+        "title": "Clearing and Settlement",
+        "desc": "Integration with domestic and international clearinghouses for seamless transaction settlements."
     }
 ]
 
+  const list1 = [
+    {
+      id: 1,
+      title: "",
+      list: [
+        "Dashboard for Order Statistics"
+      ],
+    },
+    {
+      id: 2,
+      title: "",
+      list: [
+        "Menu & Order Management:",
+        
+      ],
+    },
+    {
+      id: 3,
+      title: "",
+      list: [
+        "Sales Analytics",
+      ],
+    },
+    {
+      id: 4,
+      title: "",
+      list: [
+        "Notifications",
+     
+      ],
+    }
+  ];
   const list2 = [
+ 
     {
-        "id": 1,
-        "title": "Real-Time Availability",
-        "desc": "View and book available parking spaces."
+      id: 2,
+      title: "",
+      list: [
+        "Restaurant Browsing & Ordering.",
+        
+      ],
     },
     {
-        "id": 2,
-        "title": "Navigation Assistance",
-        "desc": "Turn-by-turn directions to the reserved spot."
+      id: 3,
+      title: "",
+      list: [
+        "Real-time Order Tracking"
+      ],
     },
     {
-        "id": 3,
-        "title": "Payment Integration",
-        "desc": "Multiple payment options (cards, wallets, and QR codes)."
+      id: 4,
+      title: "",
+      list: [
+        "Multiple Payment Options",
+     
+      ],
     },
     {
-        "id": 4,
-        "title": "Parking History",
-        "desc": "Track past bookings and expenses."
+      id: 5,
+      title: "",
+      list: [
+        "Notifications",
+     
+      ],
     },
-    {
-        "id": 5,
-        "title": "Notifications",
-        "desc": "Alerts for booking confirmation, expiration, and offers."
-    }
-]
-
+  ];
   const list3 = [
     {
       id: 1,
@@ -196,38 +223,31 @@ const ParkingManagement = () => {
     <DarkTheme>
       <Navbar nr={navbarRef} />
       <ProductsHeader
-        title={"Parking Management"}
+        title={"Cross-Border Utility Bill Payment Solution"}
         subtitle={"Home"}
-        child={"Parking Management System"}
-        image={"/img/p.jpg"}
+        child={"Cross-Border Utility Bill Payment Solution"}
+        image={"/img/bank.avif"}
       />
       <ProjectDetails2Introduction
          title={"Overview"}
          number={"01"}
 
         description={
-"The Parking Management Solution is a comprehensive system designed to optimize parking operations, improve user convenience, and maximize space utilization. It includes real-time tracking, payment integrations, and analytics for operational efficiency."}
-//         image={"/img/rize1.png"}
+            "A seamless and secure platform enabling users to pay utility bills, both domestic and international, through a fintech app. Designed for simplicity and transparency, this solution integrates real-time data fetching, currency conversion, and secure payment processing for a hassle-free experience."
+                                   }
       />
      
    <ProjectDetails2Description
-        title={"User App"}
+    title={"Core Features"}
         position={"right"}      
-        image={"/img/p1.png"}
-        list2={list2}
+        image={"/img/cross2.png"}
+        list2={list}
       />
-       <ProjectDetails2Description
-        title={"Admin Panel"}
-      position={"left"}
-        image={"/img/p2.png"}
-        list2={list1}
-      />
-       
- 
+      
       <CallToAction subBG />
       <Footer />
     </DarkTheme>
   );
 };
 
-export default ParkingManagement;
+export default CrossBorderUtilityBillPayment;

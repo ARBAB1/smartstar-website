@@ -18,7 +18,7 @@ import ProjectDetailsDescription from "../../components/Project-details-descript
 import ProjectDetails2Introduction from "../../components/Project-details2-introduction";
 import ProjectDetails2Description from "../../components/Project-details2-description";
 
-const ParkingManagement = () => {
+const WhatsappChatbot = () => {
   const navbarRef = React.useRef(null);
   React.useEffect(() => {
     var navbar = navbarRef.current;
@@ -35,83 +35,119 @@ const ParkingManagement = () => {
       }
     });
   }, [navbarRef]);
-
-  const list1 = [
+  const list = [
     {
         "id": 1,
-        "title": "Real-Time Availability",
-        "desc": "View and book available parking spaces."
+        "title": "Automation Chatbot Services",
+        "desc": "Handle unlimited conversations with dynamic stories."
     },
     {
         "id": 2,
-        "title": "Navigation Assistance",
-        "desc": "Turn-by-turn directions to the reserved spot."
+        "title": "Omni-Channel Integration",
+        "desc": "Connects seamlessly with WhatsApp, Instagram, Facebook Messenger, and Telegram."
     },
     {
         "id": 3,
-        "title": "Payment Integration",
-        "desc": "Multiple payment options (cards, wallets, and QR codes)."
+        "title": "Live Agent Support",
+        "desc": "Transition from automated chat to live agents with ease."
     },
     {
         "id": 4,
-        "title": "Parking History",
-        "desc": "Track past bookings and expenses."
+        "title": "Real-Time Reporting",
+        "desc": "Access detailed analytics for conversations, forms, and media."
     },
     {
         "id": 5,
-        "title": "Notifications",
-        "desc": "Alerts for booking confirmation, expiration, and offers."
+        "title": "Outbound Messaging",
+        "desc": "Broadcast messages via WhatsApp with integrated delivery and graphic reports."
     },
     {
         "id": 6,
-        "title": "Space Monitoring",
-        "desc": "Real-time tracking of occupancy and availability."
+        "title": "Seamless Customer Experience",
+        "desc": "Provide 24/7 support with interactive and personalized chat."
     },
     {
         "id": 7,
-        "title": "Revenue Tracking",
-        "desc": "View earnings and payment reports."
+        "title": "Enhanced Scalability",
+        "desc": "Designed to handle high user volumes efficiently."
     },
     {
         "id": 8,
-        "title": "Access Control",
-        "desc": "Manage user roles and permissions."
+        "title": "Actionable Insights",
+        "desc": "Use reports and analytics to optimize campaigns and customer engagement."
     },
     {
         "id": 9,
-        "title": "Analytics",
-        "desc": "Generate reports on usage patterns, peak hours, and customer feedback."
+        "title": "Cost-Effective Communication",
+        "desc": "Leverage WhatsApp for global outreach at competitive rates."
     }
 ]
-
+  const list1 = [
+    {
+      id: 1,
+      title: "",
+      list: [
+        "Dashboard for Order Statistics"
+      ],
+    },
+    {
+      id: 2,
+      title: "",
+      list: [
+        "Menu & Order Management:",
+        
+      ],
+    },
+    {
+      id: 3,
+      title: "",
+      list: [
+        "Sales Analytics",
+      ],
+    },
+    {
+      id: 4,
+      title: "",
+      list: [
+        "Notifications",
+     
+      ],
+    }
+  ];
   const list2 = [
+ 
     {
-        "id": 1,
-        "title": "Real-Time Availability",
-        "desc": "View and book available parking spaces."
+      id: 2,
+      title: "",
+      list: [
+        "Restaurant Browsing & Ordering.",
+        
+      ],
     },
     {
-        "id": 2,
-        "title": "Navigation Assistance",
-        "desc": "Turn-by-turn directions to the reserved spot."
+      id: 3,
+      title: "",
+      list: [
+        "Real-time Order Tracking"
+      ],
     },
     {
-        "id": 3,
-        "title": "Payment Integration",
-        "desc": "Multiple payment options (cards, wallets, and QR codes)."
+      id: 4,
+      title: "",
+      list: [
+        "Multiple Payment Options",
+     
+      ],
     },
     {
-        "id": 4,
-        "title": "Parking History",
-        "desc": "Track past bookings and expenses."
+      id: 5,
+      title: "",
+      list: [
+        "Notifications",
+     
+      ],
     },
-    {
-        "id": 5,
-        "title": "Notifications",
-        "desc": "Alerts for booking confirmation, expiration, and offers."
-    }
-]
-
+  ];
   const list3 = [
     {
       id: 1,
@@ -196,38 +232,31 @@ const ParkingManagement = () => {
     <DarkTheme>
       <Navbar nr={navbarRef} />
       <ProductsHeader
-        title={"Parking Management"}
+        title={"WHATSAPP CHATBOT SOLUTION"}
         subtitle={"Home"}
-        child={"Parking Management System"}
-        image={"/img/p.jpg"}
+        child={"WHATSAPP CHATBOT SOLUTION"}
+        image={"/img/whatsapp.png"}
       />
       <ProjectDetails2Introduction
          title={"Overview"}
          number={"01"}
 
         description={
-"The Parking Management Solution is a comprehensive system designed to optimize parking operations, improve user convenience, and maximize space utilization. It includes real-time tracking, payment integrations, and analytics for operational efficiency."}
-//         image={"/img/rize1.png"}
+            "                A robust chatbot solution designed to transform customer engagement through automated and interactive conversations on WhatsApp. Tailored for businesses across industries, it enhances communication, accelerates sales, and improves customer support."
+                                   }
       />
      
    <ProjectDetails2Description
-        title={"User App"}
+    title={"Core Features"}
         position={"right"}      
-        image={"/img/p1.png"}
-        list2={list2}
+        image={"/img/whatsapp1.png"}
+        list2={list}
       />
-       <ProjectDetails2Description
-        title={"Admin Panel"}
-      position={"left"}
-        image={"/img/p2.png"}
-        list2={list1}
-      />
-       
- 
+      
       <CallToAction subBG />
       <Footer />
     </DarkTheme>
   );
 };
 
-export default ParkingManagement;
+export default WhatsappChatbot;

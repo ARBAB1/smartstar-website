@@ -124,6 +124,9 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/switch">
                   <a className="dropdown-item">Switch</a>
                 </Link>
+                <Link href="/pms">
+                  <a className="dropdown-item">Parking Management System</a>
+                </Link>
                 <Link href="/rms">
                   <a className="dropdown-item">Restaurant Management System</a>
                 </Link>
@@ -133,8 +136,43 @@ const Navbar = ({ lr, nr, theme }) => {
                 <Link href="/digitalwallet">
                   <a className="dropdown-item">Digital Wallet</a>
                 </Link>
+                <Link
+                      href="/whatsapp-chatbot-solution"
+                      // className={styles.ol}
+                    >
+                         <a className="dropdown-item">
+
+                      WhatsApp Chatbot Solution
+                         </a>
+                    </Link>
+                    <Link
+                      href="/whatsapp-message-broadcast-solution"
+                      // className={styles.ol}
+                    >
+                      <a className="dropdown-item">
+                      WhatsApp Message Broadcast Solution
+                      </a>
+                    </Link>
+                    <Link
+                       href="/bank-to-bank-remittance-service"
+                      // className={styles.ol}
+                    >
+                         <a className="dropdown-item">
+
+                      Bank to Bank Remittance Service
+                         </a>
+                    </Link>
+                    <Link
+                       href="/cross-border-utility-bill-payment-solution"
+                      // className={styles.ol}
+                    >
+                         <a className="dropdown-item">
+
+                      Cross-Border Utility Bill Payment Solution
+                         </a>
+                    </Link>
               </div>
-                         
+            
             </li>
             {/*  <li className="nav-item">
             <Link href="/works2/works2-dark">
